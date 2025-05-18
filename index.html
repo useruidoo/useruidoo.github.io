@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="GAF: Gaussian Avatar Reconstruction from Monocular Videos via Multi-view Diffusion.">
+        content="Hide your signer: a Privacy-aware Photorealistic Digital Signer Avatar through Latent Diffusion Model.">
   <meta name="keywords" content="Gaussian Avatars, Monocular Avatar Reconstruction, Multi-view Diffusion">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GAF: Gaussian Avatar Reconstruction from Monocular Videos via Multi-view Diffusion</title>
+  <title>Hide your signer: a Privacy-aware Photorealistic Digital Signer Avatar through Latent Diffusion Model</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -189,15 +189,15 @@
         <h2 class="title has-text-centered">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We propose a novel approach for reconstructing animatable 3D Gaussian avatars from monocular videos captured by commodity devices like smartphones. 
-            Photorealistic 3D head avatar reconstruction from such recordings is challenging due to limited observations, which leaves unobserved regions under-constrained and can lead to artifacts in novel views.
-            To address this problem, we introduce a multi-view head diffusion model, leveraging its priors to fill in missing regions and ensure view consistency in Gaussian splatting renderings. 
-            To enable precise viewpoint control, we use normal maps rendered from FLAME-based head reconstruction, 
-            which provides pixel-aligned inductive biases. We also condition the diffusion model on VAE features extracted from the input image to preserve details of facial identity and appearance.
-            For Gaussian avatar reconstruction, we distill multi-view diffusion priors by using iteratively denoised images as pseudo-ground truths, effectively mitigating over-saturation issues. 
-             To further improve photorealism, we apply latent upsampling to refine the denoised latent before decoding it into an image. 
-             We evaluate our method on the NeRSemble dataset, showing that GAF outperforms the previous state-of-the-art methods in novel view synthesis and novel expression animation. 
-            Furthermore, we demonstrate higher-fidelity avatar reconstructions from monocular videos captured on commodity devices. 
+            With the democratisation of social media use, the deaf community faces a growing challenge: protecting the privacy of sign language 
+            users in shared content. Early sign language synthesis models, which often produce videos that resemble specific individuals, 
+            raise concerns about identity disclosure. However, current state-of-the-art solutions often degrade visual quality or fail to 
+            properly model important attributes such as mouthing. To this end, we propose a novel approach that leverages a Latent Diffusion 
+            Model (LDM) to synthesise photorealistic digital signer avatars from a generated reference image. We propose a novel sign feature 
+            aggregation module that explicitly models the non-manual (\textit{e.g.}, face) features and the manual (\textit{e.g.}, hands) features. 
+            We show that our proposed module ensures the preservation of the linguistic content while seamlessly utilising the reference image. 
+            Extensive experiments on YouTube-SL-25 sign language dataset show that our pipeline achieves superior visual quality compared to 
+            state-of-the-art methods, with significant improvements in perceptual metrics such as PSNR and SSIM. 
           </p>
         </div>
       </div>
