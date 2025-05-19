@@ -143,45 +143,44 @@
         </p>
       </div>
     </div>
+  </div>
+</section>
 
+<section class="section" style="padding-top: 3rem; margin-top: 2rem;">
+  <div class="container is-max-desktop">
     <h2 class="title has-text-centered">Adaptablity to any sign language</h2>
-<div style="overflow:hidden;">
-  <div class="container">
-    <div id="post_images" class="carousel">
-      <div class="item-1">
-        <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
-          <source src="./static/videos/more_videos/000000.mp4" type="video/mp4">
-        </video>
+    <div style="overflow:hidden;">
+      <div class="container">
+        <div id="post_images2" class="carousel">
+          <div class="item-1">
+            <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
+              <source src="./static/videos/more_videos/000000.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item-2">
+            <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
+              <source src="./static/videos/more_videos/3013_02.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item-3">
+            <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
+              <source src="./static/videos/more_videos/rachel_OPHTHAMOLOGIST.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
       </div>
-      <div class="item-2">
-        <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
-          <source src="./static/videos/more_videos/3013_02.mp4" type="video/mp4">
-        </video>
-      </div>
-      <div class="item-3">
-        <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
-          <source src="./static/videos/more_videos/rachel_OPHTHAMOLOGIST.mp4" type="video/mp4">
-        </video>
+      <div class="content has-text-justified">
+        <p>
+          <b>Our model can work with any sign language. The first two examples shown are from Swiss-German Sign Language (DSGS) and the last is British Sign Language
+  (BSL).</b>
+        </p>
       </div>
     </div>
   </div>
-  <div class="content has-text-justified">
-    <p>
-      <b>Our model can work with any sign language. The first two examples shown are from Swiss-German Sign Language (DSGS) and the last is British Sign Language
-(BSL).</b>
-    </p>
-  </div>
-</div>
+</section>
 
-<script>
-  bulmaCarousel.attach('#post_images', {
-    slidesToScroll: 1,
-    slidesToShow: 1,
-    loop: true,
-  });
-</script>
-
-
+<section class="section" style="padding-top: 3rem; margin-top: 2rem;">
+  <div class="container is-max-desktop">
     <h2 class="title has-text-centered">Sample diversity</h2>
     <div style="overflow:hidden;">
       <div class="container">
@@ -199,33 +198,40 @@
         </div>
       </div>
     </div>
-
-
-    <h2 class="title has-text-centered">User study</h2>
-<div style="overflow:hidden;">
-  <div class="container">
-    <img src="user_study.png" alt="User Study Results" style="width:100%; height:auto;" />
-    <div class="content has-text-justified">
-      <p>
-        Given a single image as input, <b>our Multi-view Head Latent Diffusion</b> can generate identity-preserved, and view-consistent multi-view portrait images. 
-      </p>
-    </div>
-  </div>
-</div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
-    <script>
-      bulmaCarousel.attach('#post_images', {
-        slidesToScroll: 1,
-        slidesToShow: 1,
-        loop: true,
-      });
-    </script>
   </div>
 </section>
 
-<section class="section" id="BibTeX">
+<section class="section" style="padding-top: 3rem; margin-top: 2rem;">
+  <div class="container is-max-desktop">
+    <h2 class="title has-text-centered">User study</h2>
+    <div style="overflow:hidden;">
+      <div class="container">
+        <img src="user_study.png" alt="User Study Results" style="width:100%; height:auto;" />
+        <div class="content has-text-justified">
+          <p>
+            Given a single image as input, <b>our Multi-view Head Latent Diffusion</b> can generate identity-preserved, and view-consistent multi-view portrait images. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  bulmaCarousel.attach('#post_images', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    loop: true,
+  });
+  
+  bulmaCarousel.attach('#post_images2', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    loop: true,
+  });
+</script>
+
+<section class="section" id="BibTeX" style="margin-top: 2rem;">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{anonymous1062,
