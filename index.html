@@ -50,7 +50,6 @@
   </div>
 </section>
 
-
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract -->
@@ -63,7 +62,7 @@
             users in shared content. Early sign language synthesis models, which often produce videos that resemble specific individuals, 
             raise concerns about identity disclosure. However, current state-of-the-art solutions often degrade visual quality or fail to 
             properly model important attributes such as mouthing. To this end, we propose a novel approach that leverages a Latent Diffusion 
-            Model (LDM) to synthesise photorealistic digital signer avatars from a generated reference image.             We propose a novel sign feature 
+            Model (LDM) to synthesise photorealistic digital signer avatars from a generated reference image. We propose a novel sign feature 
             aggregation module that explicitly models the non-manual (<i>e.g.</i>, face) features and the manual (<i>e.g.</i>, hands) features. 
             We show that our proposed module ensures the preservation of the linguistic content while seamlessly utilising the reference image. 
             Extensive experiments on YouTube-SL-25 sign language dataset show that our pipeline achieves superior visual quality compared to 
@@ -73,7 +72,6 @@
       </div>
     </div>
     <!--/ Abstract -->
-
   </div>
 </section>
 
@@ -101,7 +99,9 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title has-text-centered">Comparisons against Baselines</h2>
+    <h2 class="title has-text-centered" style="margin-top: 2.5rem;">
+      Comparisons against Baselines
+    </h2>
     <div style="overflow:hidden;">
       <div class="container">
         <div id="post_images" class="carousel">
@@ -143,15 +143,13 @@
         </p>
       </div>
     </div>
-  </div>
-</section>
 
-<section class="section" style="padding-top: 3rem; margin-top: 2rem;">
-  <div class="container is-max-desktop">
-    <h2 class="title has-text-centered">Adaptablity to any sign language</h2>
+    <h2 class="title has-text-centered" style="margin-top: 2.5rem;">
+      Adaptablity to any sign language
+    </h2>
     <div style="overflow:hidden;">
       <div class="container">
-        <div id="post_images2" class="carousel">
+        <div id="post_images" class="carousel">
           <div class="item-1">
             <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
               <source src="./static/videos/more_videos/000000.mp4" type="video/mp4">
@@ -172,16 +170,14 @@
       <div class="content has-text-justified">
         <p>
           <b>Our model can work with any sign language. The first two examples shown are from Swiss-German Sign Language (DSGS) and the last is British Sign Language
-  (BSL).</b>
+        (BSL).</b>
         </p>
       </div>
     </div>
-  </div>
-</section>
 
-<section class="section" style="padding-top: 3rem; margin-top: 2rem;">
-  <div class="container is-max-desktop">
-    <h2 class="title has-text-centered">Sample diversity</h2>
+    <h2 class="title has-text-centered" style="margin-top: 2.5rem;">
+      Sample diversity
+    </h2>
     <div style="overflow:hidden;">
       <div class="container">
         <img
@@ -193,17 +189,15 @@
         />
         <div class="content has-text-justified">
           <p>
-            <b>Our model can easily adapt to diverse images within the same pose sequence.
+            <b>Our model can easily adapt to diverse images within the same pose sequence.</b>
           </p>
         </div>
       </div>
     </div>
-  </div>
-</section>
 
-<section class="section" style="padding-top: 3rem; margin-top: 2rem;">
-  <div class="container is-max-desktop">
-    <h2 class="title has-text-centered">User study</h2>
+    <h2 class="title has-text-centered" style="margin-top: 2.5rem;">
+      User study
+    </h2>
     <div style="overflow:hidden;">
       <div class="container">
         <img src="user_study.png" alt="User Study Results" style="width:100%; height:auto;" />
@@ -214,24 +208,18 @@
         </div>
       </div>
     </div>
+
+    <script>
+      bulmaCarousel.attach('#post_images', {
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        loop: true,
+      });
+    </script>
   </div>
 </section>
 
-<script>
-  bulmaCarousel.attach('#post_images', {
-    slidesToScroll: 1,
-    slidesToShow: 1,
-    loop: true,
-  });
-  
-  bulmaCarousel.attach('#post_images2', {
-    slidesToScroll: 1,
-    slidesToShow: 1,
-    loop: true,
-  });
-</script>
-
-<section class="section" id="BibTeX" style="margin-top: 2rem;">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{anonymous1062,
