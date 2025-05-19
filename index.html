@@ -145,32 +145,41 @@
     </div>
 
     <h2 class="title has-text-centered">Result Gallery</h2>
-    <div style="overflow:hidden;">
-      <div class="container">
-        <div id="post_images" class="carousel">
-          <div class="item-1">
-            <video poster="" autoplay="" muted loop="" style="pointer-events: none; width:100%;">
-              <source src="./static/videos/gallery/gallery1.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item-2">
-            <video poster="" autoplay="" muted loop="" style="pointer-events: none; width:100%;">
-              <source src="./static/videos/gallery/gallery2.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item-3">
-            <video poster="" autoplay="" muted loop="" style="pointer-events: none; width:100%;">
-              <source src="./static/videos/gallery/gallery3.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item-4">
-            <video poster="" autoplay="" muted loop="" style="pointer-events: none; width:100%;">
-              <source src="./static/videos/gallery/gallery4.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
+<div style="overflow:hidden;">
+  <div class="container">
+    <div id="post_images" class="carousel">
+      <div class="item-1">
+        <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
+          <source src="./static/videos/more_videos/000000.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="item-2">
+        <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
+          <source src="./static/videos/more_videos/3013_02.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="item-3">
+        <video poster="" autoplay muted loop playsinline style="pointer-events: none; width:100%;">
+          <source src="./static/videos/more_videos/rachel_OPHTHAMOLOGIST.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
+  </div>
+  <div class="content has-text-justified">
+    <p>
+      <b>Our model can work with any sign language. The examples shown are from DSGS and BSL.</b>
+    </p>
+  </div>
+</div>
+
+<script>
+  bulmaCarousel.attach('#post_images', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    loop: true,
+  });
+</script>
+
 
     <h2 class="title has-text-centered">Sample diversity</h2>
     <div style="overflow:hidden;">
