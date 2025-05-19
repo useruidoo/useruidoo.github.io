@@ -186,21 +186,24 @@
       </div>
     </div>
 
-    <h2 class="title has-text-centered">Ablation Studies</h2>
+    <h2 class="title has-text-centered">Sample diversity</h2>
     <div style="overflow:hidden;">
       <div class="container">
-        <video id="ablation" autoplay muted loop playsinline height="100%">
-          <source src="./static/videos/ablation.mp4" type="video/mp4">
-        </video>
+        <img
+          id="ablation"
+          src="teaser-diversity.png"
+          alt="Ablation Studies teaser diversity"
+          height="100%"
+          style="display: block; margin: 0 auto;"
+        />
         <div class="content has-text-justified">
           <p>
-            <b>Ablation Studies on different types of diffusion priors.</b> (a) Input; (b) Ground truth; Comparisons between method variants of (c) No diffusion; using (d) Pretrained Stable Diffusion; 
-            (e) Personalized Stable Diffusion; (f) Pose-conditioned multi-view diffusion; (g) Our multi-view diffusion using Score Distillation Sampling (SDS) loss; (h) Ours without latent upsampler $\times$2; (i) Ours.  
-            Our normal map-conditioned multi-view diffusion priors enable more photo-realistic novel views with identity and appearance consistency, by constraining novel views using pseudo-image ground truths, which are decoded from iteratively denoised latents followed by a latent upsampler.
+            <b>Our model can easily adapt to diverse images within the same pose sequence.
           </p>
         </div>
       </div>
     </div>
+
 
     <h2 class="title has-text-centered">Results of Multi-view Head Diffusion</h2>
     <div style="overflow:hidden;">
