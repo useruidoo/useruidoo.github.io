@@ -1,16 +1,24 @@
-# NSDP
+# DiverseSign
 
-This is the repository that contains source code for the [NeurIPS 2022 Neual Shape Deformation Priors](https://github.com/tangjiapeng/NSDP).
+**Privacy-Preserving, Foundation-Model-Guided Latent Diffusion for Photorealistic & Diverse Signer Avatars**
 
-If you find NSDP useful for your work please cite:
-```
-@inproceedings{
-    tang2022neural,
-    title={Neural Shape Deformation Priors},
-    author={Tang, Jiapeng and Markhasin Lev and Wang Bi and Thies Justus and Nie{\ss}ner, Matthias},
-    booktitle={Advances in Neural Information Processing Systems},
-    year={2022},
-    }
+Welcome to the DiverseSign submission repository.
+
+## Getting Started
+
+Simply open the file `index.html` in your browser.
+
+---
+
+## Citation
+```bibtex
+@inproceedings{DiverseSign2025,
+  title={DiverseSign: Privacy-Preserving, Foundation-Model-Guided Latent Diffusion for Photorealistic & Diverse Signer Avatars},
+  author={Anonymous},
+  booktitle={SIGGRAPH Asia},
+  year={2025}
+}
+
 ```
 
 # Website License
