@@ -86,9 +86,9 @@
       <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
       <div class="content has-text-justified">
         <p>
-          Given a sequence of video frames $\mathcal{V} = \{ \mathbf{V}_i \}$ of a sign language, our goal is to synthesise a diverse sequence $\mathcal{O} = \{ \mathbf{O}_i \}$ that faithfully preserves both the manual and non-manual linguistic features while allowing for variation across different signer appearances.
-          Our novel feature aggregation module, $\Psi_{\text{motion}}$, uses multi-scale dilated convolutions with dilation rates $d \in \{1, 2, 4\}$ to fuse fine-grained non-manual details (e.g., facial expressions) and coarse manual gestures (e.g., hand movements) into a unified representation.
-          The LDM then generates each frame $\mathbf{O}_i$ through an iterative denoising process in the latent space, guided by the aggregated features of $\Psi_{\text{motion}}$, enabling the synthesis of signers with diverse ethnic and visual characteristics.
+          Given a sequence of video frames \(\mathcal{V} = \{ \mathbf{V}_i \}\) of a sign language, our goal is to synthesise a diverse sequence \(\mathcal{O} = \{ \mathbf{O}_i \}\) that faithfully preserves both the manual and non-manual linguistic features while allowing for variation across different signer appearances.
+          Our novel feature aggregation module, \(\Psi_{\text{motion}}\), uses multi-scale dilated convolutions with dilation rates \(d \in \{1, 2, 4\}\) to fuse fine-grained non-manual details (e.g., facial expressions) and coarse manual gestures (e.g., hand movements) into a unified representation.
+          The LDM then generates each frame \(\mathbf{O}_i\) through an iterative denoising process in the latent space, guided by the aggregated features of \(\Psi_{\text{motion}}\), enabling the synthesis of signers with diverse ethnic and visual characteristics.
         </p>
       </div>
     </div>
