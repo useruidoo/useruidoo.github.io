@@ -1,8 +1,9 @@
 # DiverseSign
 
-**Privacy-Preserving, Foundation-Model-Guided Latent Diffusion for Photorealistic & Diverse Signer Avatars**
+**Diverse Signer Avatars with Manual and Non-Manual Feature Modelling for
+Sign Language Production**
 
-Welcome to the DiverseSign submission repository.
+Welcome to the Diverse Signer Avatars submission repository.
 
 ## Getting Started
 
@@ -12,11 +13,11 @@ Simply open the file `index.html` in your browser.
 
 ## Citation
 ```bibtex
-@inproceedings{DiverseSign2025,
-  title={DiverseSign: Privacy-Preserving, Foundation-Model-Guided Latent Diffusion for Photorealistic & Diverse Signer Avatars},
+@inproceedings{anonymous248,
+  title={Diverse Signer Avatars with Manual and Non-Manual Feature Modelling for Sign Language Production},
   author={Anonymous},
-  booktitle={SIGGRAPH Asia},
-  year={2025}
+  booktitle={International Conference on 3D Vision 2026 | 3DV},
+  year={2026}
 }
 
 ```
